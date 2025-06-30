@@ -33,3 +33,9 @@ PRODUCT_MODEL := SM-P625
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 34
 PRODUCT_CHARACTERISTICS := tablet
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="gta4xlsxx-user 12 SP1A.210812.016 P625XXS6BYH1 release-keys" \
+    BuildFingerprint=samsung/gta4xlsxx/gta4xls:12/SP1A.210812.016/P625XXS6BYH1:user/release-keys \
+    DeviceProduct=gta4xlsxx \
+    SystemName=gta4xlsxx
