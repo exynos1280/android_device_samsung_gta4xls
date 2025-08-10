@@ -20,3 +20,6 @@ include vendor/samsung/gta4xls/BoardConfigVendor.mk
 include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/gta4xls
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
