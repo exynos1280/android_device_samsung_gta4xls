@@ -20,6 +20,9 @@ $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/gta4xls/gta4xls-vendor.mk)
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
+
 DEVICE_PATH := device/samsung/gta4xls
 
 # Audio
